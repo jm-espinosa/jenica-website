@@ -69,11 +69,7 @@ app.get('/weather', (req, res)=>{
             })
         })
     }
-    // res.send({
-    //     forecast: 'Scattered Thunderstorms',
-    //     location: 'Lipa City',
-    //     address: req.query.address
-    // })
+  
 )
 
 app.get('/sample', (req, res)=>{
